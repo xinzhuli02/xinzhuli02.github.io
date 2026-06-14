@@ -11,4 +11,4 @@ Any changes committed to the `main` branch will be reflected live at:
 
 [https://xinzhuli02.github.io](https://xinzhuli02.github.io)
 
-© 2025 Xinzhu (Winter) Li · All rights reserved.
+© 2026 Xinzhu (Winter) Li · All rights reserved.
