@@ -91,7 +91,7 @@ a:hover{ text-decoration:underline; }
 
 /* =========================
    Hero
-   ========================= */
+   ========================= 
 .hero{
   min-height:22vh; display:grid; place-items:center; padding:2.5rem 1rem 1.5rem;
   background-image:
@@ -115,7 +115,7 @@ a:hover{ text-decoration:underline; }
   max-width: 780px;
   margin: .4rem auto 1.2rem;
   letter-spacing: 0.3px;
-}
+}*/
 
 /* =========================
    Layout Container
@@ -133,65 +133,80 @@ a:hover{ text-decoration:underline; }
 /* =========================
    About
    ========================= */
+#about.container{
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
 .about-layout{
-  display:grid;
-  grid-template-columns:240px 1fr;
-  gap:3.5rem;
-  align-items:start;
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  column-gap: 4rem;
+  align-items: start;
 }
 
 .about-sidebar{
-  position:sticky;
-  top:90px;
+  position: static;
+  width: 260px;
 }
 
 .about-sidebar .avatar{
-  width:180px;
-  height:180px;
-  border-radius:50%;
-  object-fit:cover;
-  display:block;
-  margin-bottom:1.2rem;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 1.2rem;
 }
 
 .about-sidebar h3{
-  margin:0 0 .35rem;
+  margin: 0 0 .35rem;
 }
 
 .sidebar-links{
-  margin-top:1.2rem;
-  padding-top:1rem;
-  border-top:1px solid color-mix(in oklab, var(--fg) 12%, transparent);
-  display:flex;
-  flex-direction:column;
-  gap:.55rem;
+  list-style: none;
+  margin: 1.2rem 0 0;
+  padding: 1rem 0 0;
+  border-top: 1px solid color-mix(in oklab, var(--fg) 12%, transparent);
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+}
+
+.sidebar-links li{
+  margin: 0;
 }
 
 .sidebar-links a{
-  color:var(--fg);
-  text-decoration:none;
+  color: var(--fg);
+  text-decoration: none;
+  display: block;
+  font-size: .95rem;
 }
 
 .sidebar-links a:hover{
-  color:var(--accent);
+  color: var(--accent);
 }
 
 .about-content{
-  padding-top:.2rem;
+  min-width: 0;
+  padding-top: .2rem;
 }
 
 .about-content p{
-  max-width:850px;
-  line-height:1.75;
+  max-width: 850px;
+  line-height: 1.75;
 }
 
-@media (max-width:800px){
+@media (max-width: 800px){
   .about-layout{
-    grid-template-columns:1fr;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
   }
 
   .about-sidebar{
-    position:static;
+    width: auto;
   }
 }
 
@@ -274,9 +289,9 @@ a:hover{ text-decoration:underline; }
 
 /* =========================
    Font System Overrides
-   ========================= */
+   ========================= 
 .hero h1,
-.hero p { font-family: 'Playfair Display', serif; }
+.hero p { font-family: 'Playfair Display', serif; }*/
 #about, #about p, #about h2, #about .about-text { font-family: 'Lato', sans-serif; }
 #experience, #experience h2, #experience h3, #experience li, #experience p { font-family: 'Inter', sans-serif; }
 #education, #education h2, #education time, #education div { font-family: 'Source Sans 3', sans-serif; }
