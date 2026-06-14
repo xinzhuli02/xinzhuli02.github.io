@@ -120,7 +120,11 @@ a:hover{ text-decoration:underline; }
 /* =========================
    Layout Container
    ========================= */
-.container{ max-width:var(--maxw); margin:0 auto; padding:4rem 1rem; }
+.container{
+  max-width:var(--maxw);
+  margin:0 auto;
+  padding:2.5rem 1rem;
+}
 
 /* =========================
    About
