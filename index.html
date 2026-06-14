@@ -5,261 +5,181 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Xinzhu (Winter) Li — Portfolio</title>
   <meta name="description" content="Xinzhu (Winter) Li — MSIS student at UNC Chapel Hill. Archival processing, metadata, inclusive education, publications." />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Lato:wght@400;700&family=Inter:wght@400;500&family=Source+Sans+3:wght@400;600&family=Cormorant+Garamond:wght@400;500&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Lato:wght@400;700&family=Inter:wght@400;500;600&family=Source+Sans+3:wght@400;600&family=Cormorant+Garamond:wght@400;500&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <!-- Sticky Nav -->
   <header class="site-header">
     <nav class="nav">
-      <a class="brand" href="#top" aria-label="Home">WL</a>
+      <a class="brand" href="#top">WL</a>
+
       <div class="links">
+        <a href="#about" class="nav-link">About</a>
         <a href="#publications" class="nav-link">Publications</a>
         <a href="#experience" class="nav-link">Experience</a>
         <a href="#education" class="nav-link">Education</a>
-        <a href="#about" class="nav-link">About</a>
         <a href="#contact" class="nav-link">Contact</a>
         <a class="btn small ghost" href="docs/WinterCV.pdf" target="_blank" rel="noopener">CV</a>
       </div>
     </nav>
   </header>
 
-  <!-- Hero -->
-  <section id="top" class="hero" role="banner" aria-label="Cover">
-    <div class="hero-inner">
-      <h1>Xinzhu (Winter) Li</h1>
-      <p>MSIS Student · UNC Chapel Hill - Ethical Design, AI transparency, Inclusive Creative Systems, and Digital Humanities</p>
-    </div>
-  </section>
+  <main id="top" class="page-layout">
+    <aside class="profile-card">
+      <img class="avatar" src="images/winter.jpg" alt="Portrait of Xinzhu Winter Li" />
 
-  <!-- About -->
-  <section id="about" class="container">
-    <h2>About</h2>
-    <div class="about-wrap">
-      <img class="avatar" src="images/winter.jpg" alt="Portrait of Xinzhu (Winter) Li" />
-      <div class="about-text">
+      <h1>Xinzhu Li</h1>
+      <p class="muted">Winter Li</p>
+      <p class="small">
+        MSIS Student<br>
+        University of North Carolina at Chapel Hill
+      </p>
+
+      <div class="profile-links">
+        <a href="mailto:xinzhuli642@gmail.com">Email</a>
+        <a href="docs/WinterCV.pdf" target="_blank" rel="noopener">CV</a>
+        <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <section id="about" class="section">
+        <h2>About Me</h2>
+
         <p>
-          Graduate student in Information Science at UNC–Chapel Hill, focusing on the ethical design of intelligent systems, 
-          inclusive creativity, and digital curation. My research examines how design, metadata, and interaction shape human 
+          Graduate student in Information Science at UNC–Chapel Hill, focusing on the ethical design of intelligent systems,
+          inclusive creativity, and digital curation. My research examines how design, metadata, and interaction shape human
           understanding and agency within technological environments.
         </p>
+
         <p>
-          Building on my background in archival processing, metadata design, and user-centered information services, 
-          I explore how systems can be made more context-aware, transparent, and culturally responsive. My broader 
+          Building on my background in archival processing, metadata design, and user-centered information services,
+          I explore how systems can be made more context-aware, transparent, and culturally responsive. My broader
           interests span information ethics, digital humanities, and human–AI collaboration.
         </p>
-        <div class="meta-chips" role="list" aria-label="Key skills">
-          <span role="listitem">Design Ethics</span>
-          <span role="listitem">Digital Humanities</span>
-          <span role="listitem">Inclusive Design</span>
-          <span role="listitem">Expressive Computing</span>
-          <span role="listitem">Information Ethics</span>
-          <span role="listitem">SQL</span>
-          <span role="listitem">EN / CN</span>
+
+        <div class="meta-chips">
+          <span>Design Ethics</span>
+          <span>Digital Humanities</span>
+          <span>Inclusive Design</span>
+          <span>Expressive Computing</span>
+          <span>Information Ethics</span>
+          <span>SQL</span>
+          <span>EN / CN</span>
         </div>
-      </div>
+      </section>
+
+      <section id="publications" class="section">
+        <h2>Publications</h2>
+
+        <ol class="pubs">
+          <li>
+            Li, Xinzhu, & Fang, L. <em>The Impact of Culturally Adaptive Feedback in Information-Interaction Systems on
+            Language-Learning Motivation and Outcomes</em>. <span>Journal of Educational Theory</span>, 2(1), 1–7, 2025.
+          </li>
+
+          <li>
+            Li, Xinzhu. <em>Design of Persona-Based Interactive Interfaces and Their Impact on Human Self-Perception</em>.
+            <span>Academic Journal of Sociology and Management</span>, 3(3), 30–35, 2025.
+          </li>
+
+          <li>
+            Li, Xinzhu. <em>The Illusion of Understanding: AI, Language and Self-Perception</em>.
+            <span>Artificial Intelligence Technology Research</span>, 2(10), 2025.
+          </li>
+
+          <li>
+            Li, Xinzhu. <em>The Illusion of Personhood: How Do We Determine That AI Has Personhood?</em>
+            <span>Research and Commentary on Humanities and Arts</span>, 3(3), 2025.
+          </li>
+
+          <li>
+            Li, Xinzhu. <em>Recent Research on the Development of Emotion Analysis Technology in Text Mining</em>.
+            <span>Forum on Research and Innovation Management</span>, 3(6), 2025.
+          </li>
+
+          <li>
+            Li, Xinzhu. <em>The Analysis of the Characteristics and Artistic Value of the Proses of the Yuan Dynasty</em>.
+            <span>China National Expo</span>, no. 5, 2020.
+          </li>
+        </ol>
+      </section>
+
+      <section id="experience" class="section">
+        <h2>Experience</h2>
+
+        <article class="exp-item">
+          <h3>Archive Assistant</h3>
+          <div class="exp-meta">
+            <span>North Carolina State University — Special Collections</span>
+            <span>Raleigh, USA · Feb 2025 – Aug 2025</span>
+          </div>
+          <ul>
+            <li>Researched, identified, and renamed historical campus photos and correspondence.</li>
+            <li>Processed and arranged collections using archival description standards.</li>
+            <li>Collaborated with archivists to improve metadata quality and discoverability.</li>
+          </ul>
+        </article>
+
+        <article class="exp-item">
+          <h3>Research Assistant — SCAT Testing and Creative Spatial Problem Solving</h3>
+          <div class="exp-meta">
+            <span>Center for Talented Youth, Johns Hopkins University</span>
+            <span>Baltimore, USA · Apr 2022 – Feb 2023</span>
+          </div>
+          <ul>
+            <li>Prepared testing materials and supported research administration.</li>
+            <li>Conducted trend analyses and contributed to statistical reports.</li>
+            <li>Recorded behavioral observations for cognitive pattern analysis.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="education" class="section">
+        <h2>Education</h2>
+
+        <ul class="timeline">
+          <li>
+            <time datetime="2026-05">May 2026</time>
+            <div>
+              <strong>M.S., Information Science</strong> — University of North Carolina at Chapel Hill
+              <div class="muted">Database · Text Mining · Information Retrieval</div>
+            </div>
+          </li>
+
+          <li>
+            <time datetime="2022-07">Jul 2022</time>
+            <div><strong>M.S., Education</strong> — Johns Hopkins University</div>
+          </li>
+
+          <li>
+            <time datetime="2021-06">Jun 2021</time>
+            <div><strong>B.A., Language & Literature</strong> — Beijing Language and Culture University</div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+
+        <div class="contact-grid">
+          <div><strong>Location</strong><br>Durham, NC</div>
+          <div><strong>Email</strong><br><a href="mailto:xinzhuli642@gmail.com">xinzhuli642@gmail.com</a></div>
+          <div><strong>CV</strong><br><a href="docs/WinterCV.pdf" download>Download PDF</a></div>
+        </div>
+      </section>
     </div>
-  </section>
-
-  <!-- Publications -->
-  <section id="publications" class="container">
-    <h2>Publications</h2>
-    <ol class="pubs">
-      <li>
-        Li, Xinzhu, & Fang, L. <em>The Impact of Culturally Adaptive Feedback in Information-Interaction Systems on
-        Language-Learning Motivation and Outcomes</em>. <span>Journal of Educational Theory</span>, 2(1), 1–7, 2025.
-        <a class="ext" target="_blank" rel="noopener"
-          href="https://scholar.google.com/scholar?q=%22The+Impact+of+Culturally+Adaptive+Feedback+in+Information-Interaction+Systems+on+Language-Learning+Motivation+and+Outcomes%22+%22Xinzhu+Li%22">Google Scholar</a>
-      </li>
-
-      <li>
-        Li, Xinzhu. <em>Design of Persona-Based Interactive Interfaces and Their Impact on Human Self-Perception</em>.
-        <span>Academic Journal of Sociology and Management (AJSM)</span>, 3(3), 30–35, 2025.
-        <a class="ext" target="_blank" rel="noopener"
-          href="https://scholar.google.com/scholar?q=%22Design+of+Persona-Based+Interactive+Interfaces+and+Their+Impact+on+Human+Self-Perception%22+%22Xinzhu+Li%22">Google Scholar</a>
-      </li>
-
-      <li>
-        Li, Xinzhu. <em>The Illusion of Understanding: AI, Language and Self-Perception</em>.
-        <span>Artificial Intelligence Technology Research</span>, 2(10), 2025. (O)3029-1968 / (P)3029-195X.
-        <a class="ext" target="_blank" rel="noopener"
-          href="https://scholar.oversea.cnki.net/en/Detail/index/GARJ2021_6/SQLE7C1335B24802D6C292EF116CCD591370">Scholar Oversea</a>
-      </li>
-
-      <li>
-        Li, Xinzhu. <em>The Illusion of Personhood: How Do We Determine That AI Has Personhood?</em>
-        <span>Research and Commentary on Humanities and Arts</span>, 3(3), 2025. (O)3029-2050 / (P)3029-2042.
-        <a class="ext" target="_blank" rel="noopener"
-          href="https://scholar.google.com/scholar?q=%22The+Illusion+of+Personhood%3A+How+Do+We+Determine+That+AI+Has+Personhood%3F%22+%22Xinzhu+Li%22">Google Scholar</a>
-      </li>
-
-      <li>
-        Li, Xinzhu. <em>Recent Research on the Development of Emotion Analysis Technology in Text Mining</em>.
-        <span>Forum on Research and Innovation Management</span>, 3(6), 2025. (O)3029-1984 / (P)3029-1933.
-        <a class="ext" target="_blank" rel="noopener"
-          href="https://scholar.google.com/scholar?q=%22Recent+Research+on+the+Development+of+Emotion+Analysis+Technology+in+Text+Mining%22+%22Xinzhu+Li%22">Google Scholar</a>
-      </li>
-
-      <li>
-        Li, Xinzhu. <em>The Analysis of the Characteristics and Artistic Value of the Proses (Poetry) of the Yuan Dynasty</em>.
-        <span>China National Expo</span>, no. 5, 2020. ISSN 1007-4198 (in Chinese).
-        <a class="ext" target="_blank" rel="noopener"
-          href="https://d.wanfangdata.com.cn/periodical/CiFQZXJpb2RpY2FsQ0hJU29scjlTMjAyNTEwMjEwOTUwNDYSD3pnbXpibDIwMjAwODA0MRoIZmc0bG40bTY%3D">WanFang Data</a>
-      </li>
-    </ol>
-  </section>
-
-  <!-- Experience -->
-  <section id="experience" class="container">
-    <h2>Experience</h2>
-
-    <article class="exp-item">
-      <header>
-        <h3>Archive Assistant</h3>
-        <div class="exp-meta">
-          <span>North Carolina State University — Special Collections</span>
-          <span>Raleigh, USA · Feb 2025 – Aug 2025</span>
-        </div>
-      </header>
-      <ul class="bullets">
-        <li>Researched, identified, and renamed historical campus photos & ambassador correspondence, restoring context to uncataloged materials and enriching institutional memory.</li>
-        <li>Independently processed and arranged collections, applying <abbr title="Describing Archives: A Content Standard">DACS</abbr> to improve metadata quality and long-term discoverability.</li>
-        <li>Collaborated with archivists to assess preservation needs, standardize folder structures, and maintain accurate digital processing logs.</li>
-      </ul>
-    </article>
-
-    <article class="exp-item">
-      <header>
-        <h3>Research Assistant — SCAT Testing and Creative Spatial Problem Solving</h3>
-        <div class="exp-meta">
-          <span>Center for Talented Youth, Johns Hopkins University</span>
-          <span>Baltimore, USA · Apr 2022 – Feb 2023</span>
-        </div>
-      </header>
-      <ul class="bullets">
-        <li>Collaborated with the SCAT testing department to prepare materials, organize administration workshops, and monitor scoring and scaling procedures.</li>
-        <li>Conducted trend analyses and comparative studies of test outcomes; contributed to statistical report preparation for cognitive assessment research.</li>
-        <li>Worked with the creative spatial assessment team on “Creative Spatial Problem Solving,” exploring links between spatial reasoning and academic ability using neurocognitive tasks such as mental rotation, cube/figure turning, and box folding/unfolding.</li>
-        <li>Recorded detailed behavioral observations during testing sessions, documenting participants’ problem-solving strategies and responses to failed attempts for subsequent coding and cognitive pattern analysis by the engineering team.</li>
-      </ul>
-    </article>
-
-    <article class="exp-item">
-      <header>
-        <h3>Research Assistant — The Influence of Culture on People's Self-evaluation</h3>
-        <div class="exp-meta">
-          <span>Advisor: Professor Cheng Liao, Harvard University</span>
-          <span>Cambridge, USA · Mar 2022 – Sep 2023</span>
-        </div>
-      </header>
-      <ul class="bullets">
-        <li>Investigated how cultural background influences individuals’ self-perception and evaluation of personal ability and worth.</li>
-        <li>Analyzed cross-cultural psychological studies to identify variations in self-esteem and self-criticism between individualistic and collectivist societies.</li>
-        <li>Concluded that Western participants typically exhibit higher self-esteem and self-identity, while Eastern participants demonstrate more self-critical and modest self-evaluations.</li>
-      </ul>
-    </article>
-
-    <article class="exp-item">
-      <header>
-        <h3>Research Assistant — Intercultural Communication and Global Vision</h3>
-        <div class="exp-meta">
-          <span>Tsinghua University — Advisor: Professor Pang Hongmei</span>
-          <span>Beijing, China · Mar 2020 – Apr 2020</span>
-        </div>
-      </header>
-      <ul class="bullets">
-        <li>Analyzed differences in media framing between <em>China Daily</em> and <em>The New York Times</em> during the COVID-19 pandemic to understand cultural attitudes toward mask-wearing.</li>
-        <li>Examined how individualistic versus collectivist cultural values shape public compliance and perceptions of health mandates.</li>
-        <li>Concluded that the U.S. emphasized individual freedom and voluntary compliance, whereas China’s collectivist culture favored collective responsibility and mandatory mask policies.</li>
-      </ul>
-    </article>
-  </section>
-
-  <!-- Education -->
-  <section id="education" class="container">
-    <h2>Education</h2>
-    <ul class="timeline">
-      <li>
-        <time datetime="2026-05">May 2026 (exp.)</time>
-        <div>
-          <strong>M.S., Information Science</strong> — University of North Carolina at Chapel Hill
-          <div class="muted">Relevant: Database · Text Mining · Information Retrieval</div>
-        </div>
-      </li>
-      <li>
-        <time datetime="2022-07">Jul 2022</time>
-        <div><strong>M.S., Education</strong> — Johns Hopkins University</div>
-      </li>
-      <li>
-        <time datetime="2021-06">Jun 2021</time>
-        <div><strong>B.A., Language & Literature</strong> — Beijing Language and Culture University</div>
-      </li>
-    </ul>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="container">
-    <h2>Contact</h2>
-    <div class="contact-grid">
-      <div><strong>Location</strong><br>Durham, NC 27713</div>
-      <div><strong>Phone</strong><br><a href="tel:14107109009">410-710-9009</a></div>
-      <div><strong>Email</strong><br><a href="mailto:xinzhuli642@gmail.com">xinzhuli642@gmail.com</a> · <a href="mailto:xinzhuli@unc.edu">xinzhuli@unc.edu</a></div>
-      <div><strong>CV</strong><br><a href="docs/WinterCV.pdf" download>Download PDF</a></div>
-    </div>
-  </section>
+  </main>
 
   <footer class="site-footer">
-    <p>© <span id="year"></span> Xinzhu (Winter) Li · All Rights Reserved.</p>
+    <p>© <span id="year"></span> Xinzhu Winter Li</p>
   </footer>
 
   <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById("year").textContent = new Date().getFullYear();
   </script>
-  <script>
-const sections = document.querySelectorAll("section[id]");
-const navLinks = document.querySelectorAll(".nav-link");
-
-const hrefToLink = {};
-navLinks.forEach(link => {
-  hrefToLink[link.getAttribute("href").replace('#','')] = link;
-});
-
-window.addEventListener("scroll", () => {
-  const scrollPos = window.scrollY || window.pageYOffset;
-
-  const offset = 120;
-
-  let currentId = null;
-  sections.forEach(sec => {
-    const top = sec.offsetTop - offset;
-    const bottom = top + sec.offsetHeight;
-    if (scrollPos >= top && scrollPos < bottom) {
-      currentId = sec.id;
-    }
-  });
-
-  navLinks.forEach(link => {
-    link.classList.toggle("active", link.getAttribute("href") === `#${currentId}`);
-    if (link.classList.contains("active")) {
-      link.setAttribute("aria-current","true");
-    } else {
-      link.removeAttribute("aria-current");
-    }
-  });
-});
-
-document.querySelectorAll('a[href^="#"]').forEach(a => {
-  a.addEventListener('click', e => {
-    const id = a.getAttribute('href').slice(1);
-    const target = document.getElementById(id);
-    if (target) {
-      e.preventDefault();
-      const offset = 100;
-      const y = target.getBoundingClientRect().top + window.pageYOffset - offset;
-      window.scrollTo({ top: y, behavior: 'smooth' });
-    }
-  });
-});
-</script>
 </body>
 </html>
