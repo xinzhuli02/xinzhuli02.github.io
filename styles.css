@@ -269,3 +269,12 @@ a:hover{ text-decoration:underline; }
 #experience, #experience h2, #experience h3, #experience li, #experience p { font-family: 'Inter', sans-serif; }
 #education, #education h2, #education time, #education div { font-family: 'Source Sans 3', sans-serif; }
 #contact, #contact h2, .site-footer { font-family: 'Raleway', sans-serif; }
+.publication-note{
+  margin-top:1.5rem;
+  color:var(--muted);
+  font-style:italic;
+}
+
+.publication-note a{
+  color:var(--accent);
+}
