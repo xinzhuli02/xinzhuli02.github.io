@@ -90,34 +90,6 @@ a:hover{ text-decoration:underline; }
 .nav .nav-link.active::after{ transform: scaleX(1); }
 
 /* =========================
-   Hero
-   ========================= 
-.hero{
-  min-height:22vh; display:grid; place-items:center; padding:2.5rem 1rem 1.5rem;
-  background-image:
-    linear-gradient(to bottom, rgba(15,15,18,.5), rgba(15,15,18,.85)),
-    url('images/hero.jpg');
-  background-size:cover; background-position:center;
-  text-align:center;
-}
-.hero h1{
-  font-family: 'Playfair Display', serif;
-  font-weight: 500;
-  letter-spacing: 1px;
-  color: var(--fg);
-  font-size: clamp(2.8rem, 1.5rem + 4vw, 4.5rem);
-}
-.hero p{
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
-  font-style: italic;
-  color: var(--muted);
-  max-width: 780px;
-  margin: .4rem auto 1.2rem;
-  letter-spacing: 0.3px;
-}*/
-
-/* =========================
    Layout Container
    ========================= */
 .container{
@@ -176,6 +148,8 @@ a:hover{ text-decoration:underline; }
 
 .sidebar-links li{
   margin: 0;
+  color:var(--fg);
+  font-size:.95rem;
 }
 
 .sidebar-links a{
@@ -290,8 +264,7 @@ a:hover{ text-decoration:underline; }
 /* =========================
    Font System Overrides
    ========================= 
-.hero h1,
-.hero p { font-family: 'Playfair Display', serif; }*/
+*/
 #about, #about p, #about h2, #about .about-text { font-family: 'Lato', sans-serif; }
 #experience, #experience h2, #experience h3, #experience li, #experience p { font-family: 'Inter', sans-serif; }
 #education, #education h2, #education time, #education div { font-family: 'Source Sans 3', sans-serif; }
