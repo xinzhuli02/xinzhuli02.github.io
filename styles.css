@@ -93,7 +93,7 @@ a:hover{ text-decoration:underline; }
    Hero
    ========================= */
 .hero{
-  min-height:72vh; display:grid; place-items:center; padding:6rem 1rem 4rem;
+  min-height:22vh; display:grid; place-items:center; padding:2.5rem 1rem 1.5rem;
   background-image:
     linear-gradient(to bottom, rgba(15,15,18,.5), rgba(15,15,18,.85)),
     url('images/hero.jpg');
@@ -123,21 +123,76 @@ a:hover{ text-decoration:underline; }
 .container{
   max-width:var(--maxw);
   margin:0 auto;
-  padding:1.5rem 1rem;
+  padding:3rem 1rem;
+}
+
+#about{
+  padding-top:3rem;
 }
 
 /* =========================
    About
    ========================= */
-.about-wrap{ display:flex; flex-direction:column; gap:var(--gap); }
-.avatar{
-  width:180px; aspect-ratio:1/1; border-radius:50%; object-fit:cover;
-  box-shadow:0 10px 30px rgba(0,0,0,.35);
+.about-layout{
+  display:grid;
+  grid-template-columns:240px 1fr;
+  gap:3.5rem;
+  align-items:start;
 }
-#about p{ line-height: 1.75; }
 
-@media (min-width: 48em){
-  .about-wrap{ flex-direction:row; align-items:center; }
+.about-sidebar{
+  position:sticky;
+  top:90px;
+}
+
+.about-sidebar .avatar{
+  width:180px;
+  height:180px;
+  border-radius:50%;
+  object-fit:cover;
+  display:block;
+  margin-bottom:1.2rem;
+}
+
+.about-sidebar h3{
+  margin:0 0 .35rem;
+}
+
+.sidebar-links{
+  margin-top:1.2rem;
+  padding-top:1rem;
+  border-top:1px solid color-mix(in oklab, var(--fg) 12%, transparent);
+  display:flex;
+  flex-direction:column;
+  gap:.55rem;
+}
+
+.sidebar-links a{
+  color:var(--fg);
+  text-decoration:none;
+}
+
+.sidebar-links a:hover{
+  color:var(--accent);
+}
+
+.about-content{
+  padding-top:.2rem;
+}
+
+.about-content p{
+  max-width:850px;
+  line-height:1.75;
+}
+
+@media (max-width:800px){
+  .about-layout{
+    grid-template-columns:1fr;
+  }
+
+  .about-sidebar{
+    position:static;
+  }
 }
 
 /* =========================
